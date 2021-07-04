@@ -1,0 +1,32 @@
+body {
+    background-color: #FF947E;
+}
+h1 {
+    font-family: 'Aldrich';font-size: 50px;
+    color: white;
+}
+p1 {
+    font-family: Tahoma, sans-serif;
+    color: white;
+}
+div.a {
+    text-align: center;
+}
+div.b {
+  margin-top: 50px;
+}
+.button {
+  border: none;
+  color: #FFFFFF;
+  background-color: #3f435f;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #989FCE;
+}
