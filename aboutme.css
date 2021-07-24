@@ -10,6 +10,7 @@ h1 {
     font-weight: normal;
     line-height: 156px;
     position: absolute;
+    top: -80px;
 
 }
 h2 {
@@ -33,12 +34,13 @@ h3 {
     position: absolute;
 }
 p1 {
-    font-family: 'Aldrich';
+    font-family: Helvetica;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #FF947E;
     position: absolute;
-    width: 500px;
-    top: 100px;
+    width: 1000px;
+    top: 210px;
+    left: 50px;
 }
 p2 {
     font-family: 'Aldrich';
@@ -104,22 +106,12 @@ div.b {
     left: 50px;
     top: 100px;
 }
-div.c {
-    position: absolute;
-    width: 1820px;
-    height: 350px;
-    left: 0px;
-    top: 410px;
-    padding: 50px;
-
-    background: #88EBC7;
-}
 div.d {
     position: absolute;
     width: 1820px;
-    height: 34px;
+    height: 9px;
     left: 0px;
-    top: 835px;
+    top: 860px;
     padding: 50px;
 
     background: #FF947E;
@@ -146,14 +138,23 @@ div.e {
     width: 70px;
     height: 0px;
     left: 255px;
-    top: 200px;
+    top: 120px;
 
-    border: 4px solid #FF947E;
+    border: 3px solid #FF947E;
     transform: rotate(-90deg);
 
     animation-name: example;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+.sectionline {
+    position: absolute;
+    width: 1810px;
+    height: 0px;
+    left: 50px;
+    top: 180px;
+
+    border: 2px solid #88EBC7;
 }
 .smalldiv1 {
     position: absolute;
